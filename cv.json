@@ -1,0 +1,84 @@
+{
+    "name": "Alexandru Rebenciuc",
+    "description": "Développeur web full stack ruby, html, css, javascript",
+    "about": "Ancien réceptionniste en hôtellerie et professeur de violon, j'ai souhaité me reconvertir dans le domaine du numérique, plus précisément dans le développement web. J'ai une grande capacité d'adaptation et j'aime trouver des solutions aux problématiques qui m'entourent.",
+    "contact": 
+        {
+            "phone": "+33695 15 72 05", 
+            "email": "alrebenciuc@gmail.com"
+        },
+    "languages": 
+        {
+            "romanian": "Roumain - natif", 
+            "french":   "Français - niveau C1", 
+            "english":  "Anglais - niveau C1", 
+            "italian":  "Italien - conversationnel"
+        },
+    "skills": 
+        {
+            "ruby":         "RUBY", 
+            "rubyonrails":  "RUBY ON RAILS", 
+            "html":         "HTML", 
+            "css":          "CSS", 
+            "sql":          "SQL", 
+            "javascript":   "JAVASCRIPT", 
+            "heroku":       "HEROKU", 
+            "github":       "GITHUB", 
+            "java":         "JAVA", 
+            "cpp":          "C++"
+        },
+    "projects": 
+        { 
+            "growpeas" : "Growpeas - Marketplace pour réserver des cours sur internet : ", 
+            "nuts":      "Nuts - Site pour noter et partager des recomandations des amis : "
+        },
+    "education": 
+        {
+            "development": 
+                {
+                    "school": "Le Wagon Nice", 
+                    "title":  "Formation Développeur Web Full Stack", 
+                    "description": 
+                        {
+                            "a": "Utilisation des différents langages de programmation web front end HTML, CSS, Javascript",
+                            "b": "Programmation back end en pattern MVC sur le framework Ruby on Rails",
+                            "c": "Conception de schémas de DB et de requêtes SQL",
+                            "d": "Mise en production d'un site en model Marketplace en cinque jours avec 3 autres collègues",
+                            "e": "Mise en production avec une équipe projet d'un site de recommandations personnalisées de films, livres, podcasts et restaurants dans le cadre du projet de fin d'études"
+                        }
+                },
+            "management": 
+                {
+                    "school": "Académie de Sciences Economiques de Bucarest",
+                    "title":  "Licence en management - 2006"
+                },
+            "music":
+                {
+                    "school": "Université Nationale de Musique de Bucarest", 
+                    "title":  "Formation Développeur Licence en musique - spécialité violon - 2001"
+                }
+        },
+    "experience":
+        {
+            "a":
+                {
+                    "job":       "Réceptionniste",
+                    "place":      "Hôtel Thalazur Antibes - 2017-2021",
+                    "description":"Accueil des clients, prise de réservations par email ou par téléphone, facturations et encaissements"
+        
+                },
+            "b":
+                {
+                    "job":       "Réceptionniste",
+                    "place":      "Hôtel 'La petite sirène' Nice - 2014-2017",
+                    "description":"Sécurité, rapport de la journée"
+        
+                },
+            "c":
+                {
+                    "job":       "Professeur de violon",
+                    "place":      "Lycée de musique 'George Enesco' Bucarest 2012-2014"
+        
+                }
+        }
+}

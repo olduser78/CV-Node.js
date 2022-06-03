@@ -1,0 +1,47 @@
+<div class="left">
+    <h1 class="section"><%=cv.name%></h1>
+    <div class="section">
+        <p class="title">PROFIL PERSONNEL</p>
+        <%=cv.about%>
+    </div>
+    <div class="section">
+        <p class="title">CONTACT</p>
+        <ul>
+        <li><%=cv.contact.phone%></li>
+        <li><%=cv.contact.email%></li>
+        </ul>
+    </div>
+    <div class="flexbox" id="skills">   
+        <p class="title">COMPÉTENCES</p>
+        <ul> 
+            <li><%=cv.skills.ruby%></li>
+            <li><%=cv.skills.rubyonrails%></li>
+            <li><%=cv.skills.html%></li>
+            <li><%=cv.skills.css%></li>
+            <li><%=cv.skills.sql%></li>
+        </ul>
+        <ul>
+            <li><%=cv.skills.javascript%></li>
+            <li><%=cv.skills.java%></li>
+            <li><%=cv.skills.cpp%></li>
+            <li><%=cv.skills.heroku%></li>
+            <li><%=cv.skills.github%></li>
+        </ul>
+    </div>
+    <div class="section">
+        <p class="title">PROJETS</p>
+        <ul>
+            <li><%=cv.projects.growpeas%><a href=https://growpeas.herokuapp.com target="about/blank">https://growpeas.herokuapp.com</a>
+            <a href="https://github.com/Evalohaa/growpeas" target="about/blank">https://github.com/Evalohaa/growpeas</a></li>
+            <li><%=cv.projects.nuts%><a href="https://www.nuts-notes.xyz" target="about/blank">https://www.nuts-notes.xyz</a>
+            <a href="https://github.com/ValentineFouche/nuts_app" target="about/blank">https://github.com/ValentineFouche/nuts_app</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <p class="title">LIENS</p>
+        <ul>
+            <li><a href="https://github.com/olduser78" target="about/blank">https://github.com/olduser78</a></li>
+            <li><a href="https://www.linkedin.com/in/alexandru-rebenciuc-645358238" target="about/blank">https://www.linkedin.com/in/alexandru-rebenciuc-645358238</a></li>
+        </ul>    
+    </div>
+</div>

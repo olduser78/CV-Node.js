@@ -1,0 +1,49 @@
+<div class="right">
+    <div class="flexbox" id="photo">
+        <%=cv.description%>
+        <img src="Photo CV.jpg">
+    </div>
+    <div class="section">
+        <p class="title">FORMATION<p>
+        <%=cv.education.development.school%> - 
+        <%=cv.education.development.title%>
+        <ul>
+            <li><%=cv.education.development.description.a%></li>
+            <li><%=cv.education.development.description.b%></li>
+            <li><%=cv.education.development.description.c%></li>
+            <li><%=cv.education.development.description.d%></li>
+            <li><%=cv.education.development.description.e%></li>
+        </ul>
+        <%=cv.education.management.school%> - 
+        <%=cv.education.management.title%>
+        <br>
+        <br>
+        <%=cv.education.music.school%> - 
+        <%=cv.education.music.title%>
+        <br>
+    </div>
+    <div class="section">
+        <p class="title">LANGUES</p>
+        <ul>
+            <li><%=cv.languages.romanian%></li>
+            <li><%=cv.languages.french%></li>
+            <li><%=cv.languages.english%></li>
+            <li><%=cv.languages.italian%></li>
+        </ul>
+    </div>
+    <div class="section">
+        <p class="title">EXPÉRIENCE DE TRAVAIL</p>
+        <%=cv.experience.a.position%>
+        <%=cv.experience.a.place%>
+        <%=cv.experience.a.description%>
+        <br>
+        <br>
+        <%=cv.experience.b.position%>
+        <%=cv.experience.b.place%>
+        <%=cv.experience.b.description%>
+        <br>
+        <br>
+        <%=cv.experience.c.position%>
+        <%=cv.experience.c.place%>
+    </div>
+</div>

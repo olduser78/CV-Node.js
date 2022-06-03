@@ -1,0 +1,65 @@
+.container { 
+    padding-top:50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: tahoma;
+    font-size: 22px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    border-radius: 50%;
+    float: right;
+}
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.left {
+    background-color: rgb(193, 193, 226);
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.right {
+    background-color: blanchedalmond;
+    width: 50%;
+    height: auto;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.section {
+    padding-left: 10px;
+}
+
+#skills {
+    padding-left: 10px;
+}
+
+#photo {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
